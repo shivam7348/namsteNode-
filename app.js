@@ -1,15 +1,29 @@
 
-import { addNumber,a } from "./sum.js"
-//   var a = 10 
-  var b = 20
+const { calculateSum, multiplysum } = require('./calculate')
+
+var a = 10
+var b = 20
+
+console.log(hello);
+
+multiplysum(a, b)
 
 
-addNumber(a, b )
+calculateSum(a, b)
+//  all the code of module is wrapped inside a function (IIFE)
+// IIFE = Immediately invoke function expression
+// functuon who is annmous 
 
-// this whole is a  common module js 
+
+// (function () {
+
+// })();  it a immediately invoked function expression
+// (function () {
+
+// })()
+// keeps variable and functions saf e 
+//  
 
 
-// comoon js module cjs 
-// ES module "MJS"
 
-// modeule.exports "es module "
+
